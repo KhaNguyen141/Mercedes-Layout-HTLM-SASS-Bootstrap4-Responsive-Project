@@ -1,0 +1,146 @@
+.MercedesWelcome {
+    @include spacing-top-bottom ($pd-4);
+    font-family: $ff-1;
+    .MercedesWelcome__container {
+        padding: $pd-3*2 0;
+            .MercedesWelcome__content {
+                max-width: 100%;
+                .MercedesWelcome__heading {
+                font-family: $ff-2;
+
+                &::before {
+                    @include top-border ($color-white-0, $width-5, $mg-2);
+                    }
+                }
+                h2 {
+                    @include text ($color-white-0, $fs-5, $fw-normal);
+                }
+                p {
+                    @include text ($color-white-0, $fs-0, $fw-normal);
+                    margin-bottom: $mg-1;
+                }
+                button {
+                    margin-top: $mg-4;
+                }
+            }
+    }
+    
+    // RESPONSIVES 
+    @include mobilesmall {
+        @include screen-layout ($width-2, $mg-auto);
+        .MercedesWelcome__content {
+            button {
+                width: 100%;
+            }
+            .MercedesWelcome__heading {
+                h2 {
+                    @include text ($color-white-0, $fs-5 - 5, $fw-normal);
+                }
+            }
+           
+        }
+    }
+
+        @include mobile1 {
+            @include screen-layout ($width-2, $mg-auto);
+            
+            .MercedesWelcome__content {
+                button {
+                    width: 100%;
+                }
+                .MercedesWelcome__heading {
+                    h2 {
+                        @include text ($color-white-0, $fs-5 - 5, $fw-normal);
+                    }
+                }
+               
+            }
+        }
+
+        @include mobile2 {
+            @include screen-layout ($width-6, $mg-auto);
+            
+            .MercedesWelcome__content {
+                button {
+                    width: 100%;
+                }
+                .MercedesWelcome__heading {
+                    h2 {
+                        @include text ($color-white-0, $fs-5 - 5, $fw-normal);
+                    }
+                }
+               
+            }
+        }
+
+        @include tablet1 {
+            @include screen-layout ($width-1, $mg-auto);
+            
+            .MercedesWelcome__content {
+                .MercedesWelcome__heading {
+                    h2 {
+                        @include text ($color-white-0, $fs-5 - 4, $fw-normal);
+                    }
+                }
+            
+            }
+        }
+
+        @include tablet2 {
+            @include screen-layout ($width-0, $mg-auto);
+            
+            .MercedesWelcome__content {
+                .MercedesWelcome__heading {
+                    h2 {
+                        @include text ($color-white-0, $fs-5 - 4, $fw-normal);
+                    }
+                }
+            
+            }
+        }
+
+        @include tablet3 {
+            @include screen-layout ($width-8, $mg-auto);
+            .MercedesWelcome__container {
+                .MercedesWelcome__content {
+                    max-width: $width-4;
+                    .MercedesWelcome__heading {
+                        h2 {
+                            @include text ($color-white-0, $fs-5 - 3, $fw-normal);
+                        }
+                    }
+                
+                }
+            }
+        }
+
+        @include desktop1 {
+            @include screen-layout ($width-3, $mg-auto);
+            .MercedesWelcome__container {
+                .MercedesWelcome__content {
+                    max-width: $width-4;
+                    .MercedesWelcome__heading {
+                        h2 {
+                            @include text ($color-white-0, $fs-5, $fw-normal);
+                        }
+                    }
+                
+                }
+            }
+        }
+
+        @include desktop2 {
+            @include screen-layout ($width-0, $mg-auto);
+            .MercedesWelcome__container {
+                .MercedesWelcome__content {
+                    max-width: 50%;
+                    .MercedesWelcome__heading {
+                        h2 {
+                            @include text ($color-white-0, $fs-5, $fw-normal);
+                        }
+                    }
+                
+                }
+            }
+        }
+    }

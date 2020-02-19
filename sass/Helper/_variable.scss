@@ -1,0 +1,114 @@
+// variable color
+$color-black-0: #000; // default
+$color-white-0: #fff; //default
+$color-white-1: #efefef;
+$color-blue-1: #00adef;
+$color-blue-2: #0088c6;
+$color-gray-1: #333333;
+$color-gray-2: #999999;
+$color-gray-3: #636363;
+$color-gray-4: #555;
+$color-gray-5: #999;
+$color-gray-6: #333;
+$color-gray-7: #303030; 
+$color-gray-8: #202020;
+$color-black-1: #2A2A2A;
+$color-black-2: #242424;
+$color-black-3: #0b0b0b;
+$color-black-4: #171717;
+$color-black-5: #101010;
+$color-black-6: #1f1f1f;
+
+// font family
+$ff-1: Helvetica,Arial,sans-serif;
+$ff-2: 'Times New Roman', Times, serif;
+
+// variable font-size
+$fs-0: 14px; //default
+$fs-1: 13px;
+$fs-2: 20px;
+$fs-3: 24px;
+//Còn 1 font-size: 36px;
+$fs-4: 40px;
+$fs-5: 35px;
+
+//variable margin
+$mg-0: 2px;
+$mg-1: 10px;
+$mg-2: 25px;
+$mg-3: 30px;
+$mg-4: 40px;
+$mg-5: 55px;
+$mg-auto: auto;
+
+//variable border-radius
+$border-radius: 2px;
+
+//variable padding
+$pd-0: 5px; //default
+$pd-1: 10px;
+$pd-2: 20px;
+$pd-3: 30px;
+$pd-4: 70px;
+
+// variable width
+$width-0: 70%;
+$width-1: 80%;
+$width-2: 87%;
+$width-3: 90%;
+$width-4: 73%;
+$width-5: 60px;
+$width-6: 93%;
+$width-7: 100%;
+$width-8: 85%;
+$width-9: 16px;
+$width-10: 50%;
+$width-11: 30%;
+
+// height
+$height-1: 40px;
+$height-2: 16px;
+
+//variable line-height
+$line-height-0: 1.43; //default
+
+//variable font-weight
+$fw-normal: normal;
+$fw-bold-0: 600;
+$fw-bold-1: 700;
+$fw-bold: bold;
+
+// variable spacing
+
+// variable border radius
+$border-ra-1: 0%;
+$border-ra-2: 50%;
+
+//screen
+$mobilesmall: "only screen and (min-width: 320px) and (max-width: 374px)";
+$mobile1: "only screen and (min-width: 375px) and (max-width: 424px)";
+$mobile2: "only screen and (min-width: 425px) and (max-width: 767px)";
+$tablet1: "only screen and (min-width: 768px) and (max-width: 991px)";
+$tablet2: "only screen and (min-width: 992px) and (max-width: 1023px)";
+$tablet3: "only screen and (min-width: 1024px) and (max-width: 1199px)";
+$desktop1: "only screen and (min-width: 1200px) and (max-width: 1439px)";
+$desktop1-1: "only screen and (min-width: 1200px) and (max-width: 1279px)";
+$desktop1-2: "only screen and (min-width: 1280px) and (max-width: 1439px)";
+$desktop2: "only screen and (min-width: 1440px)";
+$desktop1-3: "only screen and (min-width: 1280px) and (max-width: 1572px)";
+$desktop3: "only screen and (min-width: 1573px)";
+
+
+// animation
+$transform1: 0;
+$transform2: 5%;
+$transform3: 50%;
+$transform4: 100%;
+$transform5: 82%;
+$transform6: 87%;
+$transformMobile1: -60%;
+$transformMobile2: -5%;
+$transformMobile3: -80%;
+$transformMobile4: -5%;
+$transformMobile5: -30%;
+$transformMobile6: -5%;

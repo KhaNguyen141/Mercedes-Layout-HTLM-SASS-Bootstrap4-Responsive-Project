@@ -1,0 +1,122 @@
+.MercedesBrand {
+    @include spacing-top-bottom ($pd-4);
+    .MercedesBrand__container {
+        .MercedesBrand__items {
+                &:hover {
+                    &:after { 
+                    opacity: 1;
+                    }
+                }
+        
+                &:after {
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    opacity: 0;
+                    height: 7px;
+                    background: $color-blue-1;
+                    transition: 0.3s all;
+                    }
+                }
+        }
+}
+
+   // RESPONSIVES 
+   @include mobilesmall {
+    .MercedesBrand__container {
+        @include screen-layout ($width-2, $mg-auto);
+        .MercedesBrand__items {
+            margin-bottom: $mg-1 + 5;
+            img {
+                width: 100%;
+            }
+        }
+        
+    }
+}
+
+    @include mobile1 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-2, $mg-auto);
+            .MercedesBrand__items {
+                margin-bottom: $mg-1 + 5;
+                img {
+                    width: 100%;
+                }
+            }
+            
+        }
+    }
+
+    @include mobile2 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-6, $mg-auto);
+            .MercedesBrand__items {
+                margin-bottom: $mg-1 + 5;
+                img {
+                    width: 100%;
+                   
+                }
+            }
+            
+        }
+    }
+
+    @include tablet1 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-1, $mg-auto);
+            .MercedesBrand__items {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @include tablet2 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-0, $mg-auto);
+            .MercedesBrand__items {
+                img {
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+
+    @include tablet3 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-8, $mg-auto);
+            .MercedesBrand__items {
+                img {
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+
+    @include desktop1 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-3, $mg-auto);
+            .MercedesBrand__items {
+                img {
+                    width: 100%;
+                   
+                }
+            }
+        }
+    }
+    @include desktop2 {
+        .MercedesBrand__container {
+            @include screen-layout ($width-0, $mg-auto);
+            .MercedesBrand__items {
+                img {
+                    width: 100%;
+                   
+                }
+            }
+                
+        }
+    }

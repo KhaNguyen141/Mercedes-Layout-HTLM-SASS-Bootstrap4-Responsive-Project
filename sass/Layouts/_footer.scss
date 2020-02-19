@@ -1,0 +1,239 @@
+.MercedeFooter {
+    @include spacing-top-bottom ($pd-3);
+    .MercedeFooter__language {
+
+        a {
+            text-decoration: none;
+            
+            @include text ($color-gray-3, $fs-0, $fw-normal);
+            &:hover { 
+                @include text ($color-blue-1, $fs-0, $fw-normal);
+            }
+
+            &:active {
+                @include text ($color-white-0, $fs-0, $fw-normal);
+            }
+
+            &:focus {
+                @include text ($color-white-0, $fs-0, $fw-normal);
+            }
+        }
+        .MercedeLanguage-left {
+            &::after {
+                background: $color-gray-3;
+                content: '';
+                display: inline-block;
+                height: 11px;
+                margin-left: $mg-1 + 3;
+                margin-right: $mg-1 + 3;
+                position: relative;
+                top: 1px;
+                width: 1px;
+            }
+        }
+        .MercedeLanguage-right {
+            @include text ($color-white-0, $fs-0, $fw-normal);
+        }
+    }
+
+    .MercedeFooter__tab {
+        .MercedeFooter__tabLeft {
+            float: right;
+        }
+        .MercedeFooter__tabRight {
+            float: right;
+        }
+
+        ul {
+            list-style: none;
+            a {
+                margin-right: $mg-2 - 5;
+                text-decoration: none;
+                @include text ($color-gray-3, $fs-0, $fw-normal);
+                &:hover { 
+                    @include text ($color-blue-1, $fs-0, $fw-normal);
+                }
+            }
+        }
+    }
+
+    .MercedeFooter__goTop {
+        cursor: pointer;
+        @include text ($color-gray-3, $fs-0, $fw-normal);
+        i {
+            margin-left: $mg-1;
+        }
+        &:hover {
+            @include text ($color-blue-1, $fs-0, $fw-normal);
+        }
+    }
+}
+
+    // RESPONSIVES 
+
+    @include mobilesmall {
+        .MercedeFooter {
+            @include screen-layout ($width-2, $mg-auto);
+            .MercedeFooter__language {
+                display: flex;
+                justify-content: center!important;
+                
+            }
+            .row {
+                ul {
+                    flex-wrap: wrap;
+                }
+                .MercedeFooter__tab {
+                    flex-direction: column!important;
+                    padding-top: $pd-1 + 5;
+                    .MercedeFooter__tabLeft {
+                        float: left;
+                        
+                        
+                    }
+                    .MercedeFooter__tabRight {
+                        float: left;
+                        
+                    }
+                    
+                }
+                .MercedeFooter__goTop {
+                    margin-left: auto;
+                    max-width: 17%;
+                }
+            }
+        }
+    }
+    
+    @include mobile1 {
+        .MercedeFooter {
+            @include screen-layout ($width-2, $mg-auto);
+            .MercedeFooter__language {
+                display: flex;
+                justify-content: center!important;
+                
+            }
+            .row {
+                ul {
+                    flex-wrap: wrap;
+                }
+                .MercedeFooter__tab {
+                    flex-direction: column!important;
+                    padding-top: $pd-1 + 5;
+                    .MercedeFooter__tabLeft {
+                        float: left;
+                        
+                        
+                    }
+                    .MercedeFooter__tabRight {
+                        float: left;
+                        
+                    }
+                    
+                }
+                .MercedeFooter__goTop {
+                    margin-left: auto;
+                    max-width: 17%;
+                }
+            }
+        }
+    }
+
+    @include mobile2 {
+        .MercedeFooter {
+            @include screen-layout ($width-6, $mg-auto);
+            .MercedeFooter__language {
+                display: flex;
+                justify-content: center!important;
+
+            }
+            .row {
+                align-self: center;
+                .MercedeFooter__tab {
+                    ul {
+                    flex-wrap: wrap;
+                    }
+                    padding-top: $pd-1 + 5;
+                    .MercedeFooter__tabLeft {
+                        float: left;
+                        
+                    }
+                    .MercedeFooter__tabRight {
+                        float: left;
+            
+                    }
+                    
+                }
+                .MercedeFooter__goTop {
+                    margin-left: auto;
+                    max-width: 17%;
+                }
+            }
+        }
+    }
+
+    @include tablet1 {
+        .MercedeFooter {
+
+            @include screen-layout ($width-6, $mg-auto);
+            .row {
+                flex-direction: column!important;
+                .MercedeFooter__tab {
+                    padding-top: $pd-1 + 5;
+                    .MercedeFooter__tabLeft {
+                        float: left;
+                    }
+                    .MercedeFooter__tabRight {
+                        float: left;
+                    }
+                    
+                }
+                .MercedeFooter__goTop {
+                    margin-left: auto;
+                    max-width: 10.5%;
+                }
+            }
+        }
+    }
+
+    @include tablet2 {
+        .MercedeFooter {
+            @include screen-layout ($width-2, $mg-auto);
+            .row {
+                flex-direction: column!important;
+                .MercedeFooter__tab {
+                    padding-top: $pd-1 + 5;
+                    .MercedeFooter__tabLeft {
+                        float: left;
+                    }
+                    .MercedeFooter__tabRight {
+                        float: left;
+                    }
+                    
+                }
+                .MercedeFooter__goTop {
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+
+    @include tablet3 {
+        .MercedeFooter {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include desktop1 {
+        .MercedeFooter {
+            @include screen-layout ($width-3, $mg-auto);
+        }
+    }
+
+    @include desktop2 {
+        .MercedeFooter {
+            @include screen-layout ($width-8, $mg-auto);
+        }
+        
+    }

@@ -1,0 +1,1512 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html, body {
+  font-size: 14px;
+  background: #000;
+  color: #fff;
+  height: 100%;
+  width: 100%; }
+
+.btn-mercedes {
+  background-color: #00adef;
+  border-color: #00adef;
+  border: 0px solid #00adef;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 0%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  transition: 0.25s all; }
+  .btn-mercedes:hover {
+    background-color: #0088c6;
+    border-color: #0088c6;
+    border: 0px solid #0088c6;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 0%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal; }
+
+.btn-mercedes-dark {
+  background-color: #333;
+  border-color: #333;
+  border: 0px solid #333;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 12px;
+  padding-left: 12px;
+  border-radius: 0%;
+  color: #fff;
+  font-size: 15px;
+  font-weight: normal;
+  transition: 0.25s all; }
+  .btn-mercedes-dark:hover {
+    background-color: #1f1f1f;
+    border-color: #1f1f1f;
+    border: 0px solid #1f1f1f;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 0%;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal; }
+  .btn-mercedes-dark:focus {
+    outline: none;
+    box-shadow: none; }
+
+.btn-mercedes-showMore {
+  background: linear-gradient(#303030, #202020);
+  border: 1px solid #303030;
+  color: #999;
+  line-height: 20px;
+  padding: 5px 20px;
+  margin: 30px auto;
+  transition: 0.5s all; }
+  .btn-mercedes-showMore:hover {
+    color: #fff; }
+  .btn-mercedes-showMore:focus {
+    box-shadow: none;
+    outline: none;
+    border: none; }
+  .btn-mercedes-showMore i {
+    padding-right: 10px; }
+
+.btn-outline-secondary:focus {
+  box-shadow: none;
+  outline: none;
+  border: none; }
+
+.MercedesHeader {
+  z-index: 100; }
+
+.header__container {
+  font-family: Helvetica, Arial, sans-serif;
+  position: relative; }
+  .header__container .navbar-brand img {
+    vertical-align: text-bottom;
+    margin-right: 40px; }
+  .header__container .header__navbarTop {
+    position: absolute;
+    bottom: 55px;
+    right: 18px; }
+    .header__container .header__navbarTop .navbar-nav .text1 i {
+      padding-right: 10px; }
+    .header__container .header__navbarTop .navbar-nav .nav-link {
+      color: #fff;
+      margin-left: 30px; }
+      .header__container .header__navbarTop .navbar-nav .nav-link:hover {
+        color: #00adef; }
+  .header__container .header__navbarBottom .navbar-nav .nav-item .nohover:hover {
+    color: #fff; }
+  .header__container .header__navbarBottom .navbar-nav .nav-link {
+    color: #fff;
+    margin-left: 30px; }
+    .header__container .header__navbarBottom .navbar-nav .nav-link:focus {
+      color: #00adef; }
+    .header__container .header__navbarBottom .navbar-nav .nav-link:hover {
+      color: #00adef; }
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    .header__container button:focus {
+      outline: none; }
+    .header__container .header__navbarTop .navbar-nav {
+      margin-right: 30px; }
+      .header__container .header__navbarTop .navbar-nav .nav-link {
+        display: none !important; }
+    .header__container .header__navbarBottom {
+      text-align: center;
+      padding-top: 0;
+      margin-top: 30px;
+      color: #000;
+      font-size: 24px;
+      font-weight: normal; } }
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    .header__container .navbar-brand img:nth-child(1) {
+      max-width: 20%;
+      max-height: 20%; }
+    .header__container button:focus {
+      outline: none; }
+    .header__container .header__navbarTop .navbar-nav {
+      margin-right: 30px; }
+      .header__container .header__navbarTop .navbar-nav .nav-link {
+        display: none !important; }
+    .header__container .header__navbarBottom {
+      text-align: center;
+      padding-top: 0;
+      margin-top: 30px;
+      color: #000;
+      font-size: 24px;
+      font-weight: normal; } }
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    .header__container .navbar-brand img:nth-child(1) {
+      max-width: 20%;
+      max-height: 20%; }
+    .header__container button:focus {
+      outline: none; }
+    .header__container .header__navbarTop .navbar-nav {
+      margin-right: 30px; }
+      .header__container .header__navbarTop .navbar-nav .nav-link {
+        display: none !important; }
+    .header__container .header__navbarBottom {
+      text-align: center;
+      padding-top: 0;
+      margin-top: 30px;
+      color: #000;
+      font-size: 24px;
+      font-weight: normal; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header__container .navbar-brand img:nth-child(1) {
+      max-width: 20%;
+      max-height: 20%; }
+    .header__container button:focus {
+      outline: none; }
+    .header__container .header__navbarTop .navbar-nav {
+      margin-right: 30px; }
+      .header__container .header__navbarTop .navbar-nav .nav-link {
+        display: none !important; }
+    .header__container .header__navbarBottom {
+      text-align: center;
+      padding-top: 0;
+      margin-top: 30px;
+      color: #000;
+      font-size: 24px;
+      font-weight: normal; } }
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .header__container .header__navbarTop {
+      position: absolute;
+      bottom: 55px;
+      right: 18px;
+      margin-left: 0 !important; }
+      .header__container .header__navbarTop .navbar-nav {
+        color: #000;
+        font-size: 15px;
+        font-weight: normal; }
+        .header__container .header__navbarTop .navbar-nav .nav-link {
+          margin-left: 0 !important; }
+    .header__container .header__navbarBottom {
+      position: absolute;
+      bottom: 2%;
+      right: 18px;
+      color: #000;
+      font-size: 15px;
+      font-weight: normal; }
+      .header__container .header__navbarBottom .nav-link {
+        color: #fff;
+        margin-left: 0 !important; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .header__container .header__navbarTop .navbar-nav {
+      color: #000;
+      font-size: 15px;
+      font-weight: normal; }
+      .header__container .header__navbarTop .navbar-nav .nav-link {
+        margin-left: 0 !important; }
+    .header__container .header__navbarBottom {
+      position: absolute;
+      bottom: 2%;
+      right: 18px;
+      color: #000;
+      font-size: 15px;
+      font-weight: normal; }
+      .header__container .header__navbarBottom .nav-link {
+        color: #fff;
+        margin-left: 0 !important; } }
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .header__container .header__navbarTop .navbar-nav {
+      color: #000;
+      font-size: 15px;
+      font-weight: normal; }
+    .header__container .header__navbarBottom {
+      position: absolute;
+      bottom: 2%;
+      right: 18px;
+      color: #000;
+      font-size: 15px;
+      font-weight: normal; }
+      .header__container .header__navbarBottom .nav-link {
+        color: #fff; } }
+  @media only screen and (min-width: 1440px) {
+    .header__container {
+      width: 80%;
+      margin: auto; }
+      .header__container .header__navbarTop .navbar-nav {
+        color: #000;
+        font-size: 15px;
+        font-weight: normal; }
+      .header__container .header__navbarBottom {
+        position: absolute;
+        bottom: 2%;
+        right: 18px;
+        color: #000;
+        font-size: 15px;
+        font-weight: normal; }
+        .header__container .header__navbarBottom .nav-link {
+          color: #fff; } }
+
+.MercedesNavigationbar {
+  position: fixed;
+  z-index: 100; }
+  .MercedesNavigationbar .nav .iconhover {
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+    font-size: 24px;
+    transition: 0.5s all;
+    padding: 0 15px; }
+    .MercedesNavigationbar .nav .iconhover:hover {
+      color: #00adef; }
+  .MercedesNavigationbar .nav span {
+    padding-left: 20px; }
+  .MercedesNavigationbar .nav i {
+    font-size: 24px; }
+  .MercedesNavigationbar .nav .nav-link {
+    z-index: 100;
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+    background-color: #1f1f1f;
+    color: white;
+    width: 230px;
+    height: 44px;
+    padding-bottom: 20px;
+    transition: 0.5s all; }
+    .MercedesNavigationbar .nav .nav-link:hover {
+      transform: translateX(-75%); }
+
+.MercedesNavigationbarMobile {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  text-align: center; }
+  .MercedesNavigationbarMobile .MercedesNavigationbar__content p {
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center; }
+  .MercedesNavigationbarMobile .MercedesNavigationbar__content i {
+    font-size: 24px;
+    text-align: center; }
+  .MercedesNavigationbarMobile .MercedesNavigationbar__content .nav-link {
+    color: #fff;
+    font-size: 17px;
+    font-weight: normal;
+    background-color: #1f1f1f;
+    color: white;
+    width: 25%;
+    height: 60px;
+    transition: 0.5s all;
+    border-right: 2px solid black; }
+  .MercedesNavigationbarMobile .MercedesNavigationbar__content .dropdown-menu {
+    background-color: #1f1f1f;
+    text-align: center;
+    width: 25%;
+    border-radius: 0; }
+    .MercedesNavigationbarMobile .MercedesNavigationbar__content .dropdown-menu .iconhover {
+      color: #fff;
+      font-size: 17px;
+      font-weight: normal;
+      font-size: 24px;
+      transition: 0.5s all;
+      padding: 0 15px; }
+      .MercedesNavigationbarMobile .MercedesNavigationbar__content .dropdown-menu .iconhover:hover {
+        color: #00adef; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedesNavigationbar {
+    display: none; }
+
+  .MercedesNavigationbarMobile {
+    bottom: 0; }
+    .MercedesNavigationbarMobile .MercedesNavigationbar__content p {
+      color: #fff;
+      font-size: 9px;
+      font-weight: normal; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedesNavigationbar {
+    display: none; }
+
+  .MercedesNavigationbarMobile {
+    bottom: 0; }
+    .MercedesNavigationbarMobile .MercedesNavigationbar__content p {
+      color: #fff;
+      font-size: 9px;
+      font-weight: normal; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedesNavigationbar {
+    display: none; }
+
+  .MercedesNavigationbarMobile {
+    bottom: 0; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedesNavigationbar {
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left: 94.4%; }
+
+  .MercedesNavigationbarMobile {
+    display: none; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedesNavigationbar {
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left: 94.7%; }
+
+  .MercedesNavigationbarMobile {
+    display: none; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedesNavigationbar {
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left: 95.5%; }
+
+  .MercedesNavigationbarMobile {
+    display: none; } }
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .MercedesNavigationbar {
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left: 95.7%; }
+
+  .MercedesNavigationbarMobile {
+    display: none; } }
+@media only screen and (min-width: 1280px) and (max-width: 1572px) {
+  .MercedesNavigationbar {
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left: 96.5%; }
+
+  .MercedesNavigationbarMobile {
+    display: none; } }
+@media only screen and (min-width: 1573px) {
+  .MercedesNavigationbar {
+    position: fixed;
+    z-index: 100;
+    top: 40%;
+    left: 97.2%; }
+
+  .MercedesNavigationbarMobile {
+    display: none; } }
+.MercedesCarousel .carousel-item .carousel-caption {
+  top: 5%;
+  left: 13%;
+  text-align: left; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading {
+    position: absolute;
+    top: 5%;
+    opacity: 0; }
+    .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading h2 {
+      font-family: "Times New Roman", Times, serif;
+      padding-bottom: 30px;
+      color: #fff;
+      font-size: 30px;
+      font-weight: normal; }
+    .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading:before {
+      background: #fff;
+      content: '';
+      position: relative;
+      display: block;
+      border: 2px solid #fff;
+      margin-bottom: 30px;
+      width: 60px; }
+  .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    font-size: 30px;
+    font-weight: normal; }
+    .MercedesCarousel .carousel-item .carousel-caption .blacktext h2:before {
+      background: #000;
+      content: '';
+      position: relative;
+      display: block;
+      border: 2px solid #000;
+      margin-bottom: 30px;
+      width: 60px; }
+  .MercedesCarousel .carousel-item .carousel-caption button {
+    position: absolute;
+    top: 100%;
+    max-width: 100%;
+    max-height: 85%;
+    opacity: 0; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+    opacity: 0; }
+.MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+  background: white; }
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile .MercedesCarousel__textTopMobile .MercedesCarousel__headingMobile h2 {
+    opacity: 0;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+    color: #000;
+    font-size: 24px;
+    font-weight: normal; }
+    .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile .MercedesCarousel__textTopMobile .MercedesCarousel__headingMobile h2:before {
+      background: #000;
+      content: '';
+      position: relative;
+      display: block;
+      border: 2px solid #000;
+      margin-bottom: 10px;
+      width: 60px; }
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile .MercedesCarousel__textTopMobile .MercedesCarousel__headingMobile button {
+    opacity: 0;
+    margin-left: 20px; }
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile .MercedesCarousel__textBottomMobile {
+    opacity: 0;
+    color: #000;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 20px 20px; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .carousel-control-prev-icon {
+    transform: translateY(-130px); }
+
+  .carousel-control-next {
+    transform: translateY(-130px); } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .carousel-control-prev-icon {
+    transform: translateY(-130px); }
+
+  .carousel-control-next {
+    transform: translateY(-130px); } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .carousel-control-prev-icon {
+    transform: translateY(-130px); }
+
+  .carousel-control-next {
+    transform: translateY(-130px); } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+    width: 150%;
+    max-height: 85%;
+    color: #000 !important;
+    font-size: 20px;
+    font-weight: normal; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    max-width: 70%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+    max-width: 100%;
+    transform: translateY(-40%); } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+    width: 150%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading {
+    max-width: 40%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+    max-width: 100%;
+    transform: translateY(-30%); } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+    width: 150%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading {
+    max-width: 40%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+    max-width: 50%;
+    transform: translateY(-20%); } }
+@media only screen and (min-width: 1200px) and (max-width: 1279px) {
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+    width: 150%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading {
+    max-width: 40%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+    max-width: 50%; } }
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+    display: none; }
+  .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+    max-width: 100%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading {
+    max-width: 70%;
+    max-height: 85%; }
+  .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+    max-width: 50%; } }
+@media only screen and (min-width: 1440px) {
+  .MercedesCarousel {
+    width: 90%;
+    margin: auto; }
+    .MercedesCarousel .carousel-item .MercedesCarousel__responsiveMobile {
+      display: none; }
+    .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__heading {
+      max-width: 50%;
+      max-height: 85%; }
+    .MercedesCarousel .carousel-item .carousel-caption .blacktext h2 {
+      max-width: 70%;
+      max-height: 85%; }
+    .MercedesCarousel .carousel-item .carousel-caption .MercedesCarousel__textBottom {
+      max-width: 50%; } }
+@keyframes moveInHeadingBottom {
+  0% {
+    opacity: 0;
+    position: absolute;
+    top: 0; }
+  100% {
+    opacity: 1;
+    position: absolute;
+    top: 5%; } }
+.MercedesCarousel__heading {
+  animation: moveInHeadingBottom 0.5s ease-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s; }
+
+@keyframes moveInButton {
+  0% {
+    opacity: 0;
+    position: absolute;
+    top: 50%; }
+  100% {
+    opacity: 1;
+    position: absolute;
+    top: 100%; } }
+.MercedesCarousel .carousel-caption button {
+  animation: moveInButton 0.5s ease-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards; }
+
+@keyframes moveInTextBottom {
+  0% {
+    opacity: 0;
+    position: absolute;
+    top: 82%; }
+  100% {
+    opacity: 1;
+    position: absolute;
+    top: 87%; } }
+.MercedesCarousel__textBottom {
+  animation: moveInTextBottom 0.5s ease-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards; }
+
+@keyframes moveInHeadingBottomMobile {
+  0% {
+    opacity: 0;
+    transform: translateY(-60%); }
+  100% {
+    opacity: 1;
+    transform: translateY(-5%); } }
+.MercedesCarousel__responsiveMobile h2 {
+  animation: moveInHeadingBottomMobile 0.5s ease-out;
+  animation-delay: 0.5s;
+  animation-fill-mode: forwards; }
+
+@keyframes moveInButtonMobile {
+  0% {
+    opacity: 0;
+    transform: translateY(-80%); }
+  100% {
+    opacity: 1;
+    transform: translateY(-5%); } }
+.MercedesCarousel__responsiveMobile .btn-mercedes-dark {
+  animation: moveInButtonMobile 0.5s ease-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards; }
+
+@keyframes moveInBottomMobile {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%); }
+  100% {
+    opacity: 1;
+    transform: translateY(-5%); } }
+.MercedesCarousel__responsiveMobile .MercedesCarousel__textBottomMobile {
+  animation: moveInBottomMobile 0.5s ease-out;
+  animation-delay: 0.75s;
+  animation-fill-mode: forwards; }
+
+.MercedesWelcome {
+  padding-top: 70px;
+  font-family: Helvetica, Arial, sans-serif; }
+  .MercedesWelcome .MercedesWelcome__container {
+    padding: 60px 0; }
+    .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content {
+      max-width: 100%; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content .MercedesWelcome__heading {
+        font-family: "Times New Roman", Times, serif; }
+        .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content .MercedesWelcome__heading::before {
+          background: #fff;
+          content: '';
+          position: relative;
+          display: block;
+          border: 2px solid #fff;
+          margin-bottom: 25px;
+          width: 60px; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content h2 {
+        color: #fff;
+        font-size: 35px;
+        font-weight: normal; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: normal;
+        margin-bottom: 10px; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content button {
+        margin-top: 40px; }
+  @media only screen and (min-width: 320px) and (max-width: 374px) {
+    .MercedesWelcome {
+      width: 87%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__content button {
+        width: 100%; }
+      .MercedesWelcome .MercedesWelcome__content .MercedesWelcome__heading h2 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: normal; } }
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    .MercedesWelcome {
+      width: 87%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__content button {
+        width: 100%; }
+      .MercedesWelcome .MercedesWelcome__content .MercedesWelcome__heading h2 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: normal; } }
+  @media only screen and (min-width: 425px) and (max-width: 767px) {
+    .MercedesWelcome {
+      width: 93%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__content button {
+        width: 100%; }
+      .MercedesWelcome .MercedesWelcome__content .MercedesWelcome__heading h2 {
+        color: #fff;
+        font-size: 30px;
+        font-weight: normal; } }
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .MercedesWelcome {
+      width: 80%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__content .MercedesWelcome__heading h2 {
+        color: #fff;
+        font-size: 31px;
+        font-weight: normal; } }
+  @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    .MercedesWelcome {
+      width: 70%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__content .MercedesWelcome__heading h2 {
+        color: #fff;
+        font-size: 31px;
+        font-weight: normal; } }
+  @media only screen and (min-width: 1024px) and (max-width: 1199px) {
+    .MercedesWelcome {
+      width: 85%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content {
+        max-width: 73%; }
+        .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content .MercedesWelcome__heading h2 {
+          color: #fff;
+          font-size: 32px;
+          font-weight: normal; } }
+  @media only screen and (min-width: 1200px) and (max-width: 1439px) {
+    .MercedesWelcome {
+      width: 90%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content {
+        max-width: 73%; }
+        .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content .MercedesWelcome__heading h2 {
+          color: #fff;
+          font-size: 35px;
+          font-weight: normal; } }
+  @media only screen and (min-width: 1440px) {
+    .MercedesWelcome {
+      width: 70%;
+      margin: auto; }
+      .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content {
+        max-width: 50%; }
+        .MercedesWelcome .MercedesWelcome__container .MercedesWelcome__content .MercedesWelcome__heading h2 {
+          color: #fff;
+          font-size: 35px;
+          font-weight: normal; } }
+
+.MercedesBrand {
+  padding-top: 70px; }
+  .MercedesBrand .MercedesBrand__container .MercedesBrand__items:hover:after {
+    opacity: 1; }
+  .MercedesBrand .MercedesBrand__container .MercedesBrand__items:after {
+    content: '';
+    display: block;
+    width: 100%;
+    opacity: 0;
+    height: 7px;
+    background: #00adef;
+    transition: 0.3s all; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedesBrand__container {
+    width: 87%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items {
+      margin-bottom: 15px; }
+      .MercedesBrand__container .MercedesBrand__items img {
+        width: 100%; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedesBrand__container {
+    width: 87%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items {
+      margin-bottom: 15px; }
+      .MercedesBrand__container .MercedesBrand__items img {
+        width: 100%; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedesBrand__container {
+    width: 93%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items {
+      margin-bottom: 15px; }
+      .MercedesBrand__container .MercedesBrand__items img {
+        width: 100%; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedesBrand__container {
+    width: 80%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items img {
+      width: 100%; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedesBrand__container {
+    width: 70%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items img {
+      width: 100%; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedesBrand__container {
+    width: 85%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items img {
+      width: 100%; } }
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .MercedesBrand__container {
+    width: 90%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items img {
+      width: 100%; } }
+@media only screen and (min-width: 1440px) {
+  .MercedesBrand__container {
+    width: 70%;
+    margin: auto; }
+    .MercedesBrand__container .MercedesBrand__items img {
+      width: 100%; } }
+.MercedesGallery {
+  padding-top: 70px; }
+  .MercedesGallery .MercedesNew__container .tab-pane .showMore {
+    display: block; }
+    .MercedesGallery .MercedesNew__container .tab-pane .showMore .nav-item {
+      text-align: center; }
+  .MercedesGallery .MercedesNew__container .MercedesNew__image {
+    position: relative; }
+    .MercedesGallery .MercedesNew__container .MercedesNew__image .MercedesNew__imageIcon {
+      position: absolute;
+      top: 0;
+      left: 0;
+      align-items: center;
+      width: 50%; }
+      .MercedesGallery .MercedesNew__container .MercedesNew__image .MercedesNew__imageIcon i {
+        background: #efefef;
+        color: #333;
+        font-size: 11px;
+        font-weight: normal;
+        padding: 6px 9px; }
+      .MercedesGallery .MercedesNew__container .MercedesNew__image .MercedesNew__imageIcon span {
+        background: #333333;
+        color: #fff;
+        font-size: 11px;
+        font-weight: normal;
+        padding: 5px 8px; }
+    .MercedesGallery .MercedesNew__container .MercedesNew__image a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 14px;
+      font-weight: normal; }
+    .MercedesGallery .MercedesNew__container .MercedesNew__image img {
+      width: 100%;
+      height: 100%; }
+    .MercedesGallery .MercedesNew__container .MercedesNew__image #overlay {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      max-height: 100%;
+      transition: 0.5s ease;
+      padding: 13px 30px;
+      background-color: rgba(0, 0, 0, 0.5); }
+      .MercedesGallery .MercedesNew__container .MercedesNew__image #overlay .MercedesNew__heading {
+        height: 45px; }
+        .MercedesGallery .MercedesNew__container .MercedesNew__image #overlay .MercedesNew__heading .MercedesNew__description {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #fff;
+          font-size: 12px;
+          font-weight: normal; }
+      .MercedesGallery .MercedesNew__container .MercedesNew__image #overlay h2 {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-family: "Times New Roman", Times, serif;
+        color: #fff;
+        font-size: 20px;
+        font-weight: normal; }
+      .MercedesGallery .MercedesNew__container .MercedesNew__image #overlay .MercedesNew__content {
+        display: none; }
+      .MercedesGallery .MercedesNew__container .MercedesNew__image #overlay:hover {
+        background-color: rgba(0, 0, 0, 0.5); }
+  .MercedesGallery .MercedesNew__container .MercedesNew__headingMobile {
+    position: relative; }
+    .MercedesGallery .MercedesNew__container .MercedesNew__headingMobile h2 {
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-family: "Times New Roman", Times, serif;
+      color: #fff;
+      font-size: 20px;
+      font-weight: normal;
+      padding-top: 13px;
+      padding-bottom: 30px;
+      padding-left: 30px; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedesGallery .MercedesNew__grid #overlay {
+    display: none !important; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedesGallery .MercedesNew__grid #overlay {
+    display: none !important; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedesGallery .MercedesNew__grid #overlay {
+    display: none !important; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedesGallery .MercedesNew__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .MercedesGallery .MercedesNew__headingMobile {
+    display: none; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedesGallery .MercedesNew__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .MercedesGallery .MercedesNew__headingMobile {
+    display: none; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedesGallery .MercedesNew__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .MercedesGallery .MercedesNew__headingMobile {
+    display: none; } }
+@media only screen and (min-width: 1200px) and (max-width: 1279px) {
+  .MercedesGallery .MercedesNew__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); }
+  .MercedesGallery .MercedesNew__headingMobile {
+    display: none; } }
+@media only screen and (min-width: 1280px) and (max-width: 1572px) {
+  .MercedesGallery .MercedesNew__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+    .MercedesGallery .MercedesNew__grid .MercedesNew__grid1 {
+      grid-column: 1 / 3;
+      grid-row: 1 / 3; }
+    .MercedesGallery .MercedesNew__grid .MercedesNew__grid2 {
+      grid-column: 1 / 3;
+      grid-row: 4 / 6; }
+    .MercedesGallery .MercedesNew__grid .MercedesNew__grid3 {
+      grid-column: 1 / 3;
+      grid-row: 2 / 4; }
+    .MercedesGallery .MercedesNew__grid .MercedesNew__grid4 {
+      grid-column: 1 / 3;
+      grid-row: 5 / 7; }
+    .MercedesGallery .MercedesNew__grid .MercedesNew__headingMobile {
+      display: none; } }
+@media only screen and (min-width: 1573px) {
+  .MercedesGallery {
+    width: 90%;
+    margin: auto; }
+    .MercedesGallery .MercedesNew__grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); }
+      .MercedesGallery .MercedesNew__grid .MercedesNew__grid1 {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3; }
+      .MercedesGallery .MercedesNew__grid .MercedesNew__grid2 {
+        grid-column: 1 / 3;
+        grid-row: 4 / 6; }
+      .MercedesGallery .MercedesNew__grid .MercedesNew__grid3 {
+        grid-column: 1 / 3;
+        grid-row: 2 / 4; }
+      .MercedesGallery .MercedesNew__grid .MercedesNew__grid4 {
+        grid-column: 1 / 3;
+        grid-row: 5 / 7; }
+      .MercedesGallery .MercedesNew__grid .MercedesNew__headingMobile {
+        display: none; } }
+.MercedesIntroduction {
+  padding-top: 70px; }
+  .MercedesIntroduction .MercedesIntroduction__heading {
+    margin-bottom: 25px; }
+    .MercedesIntroduction .MercedesIntroduction__heading nobr {
+      margin-right: 30px; }
+  .MercedesIntroduction .MercedesIntroduction__content p {
+    margin-bottom: 25px; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedesIntroduction {
+    width: 87%;
+    margin: auto; }
+    .MercedesIntroduction .MercedesIntroduction__heading nobr {
+      display: block;
+      padding-top: 10px; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedesIntroduction {
+    width: 87%;
+    margin: auto; }
+    .MercedesIntroduction .MercedesIntroduction__heading nobr {
+      display: block;
+      padding-top: 10px; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; }
+    .MercedesIntroduction .MercedesIntroduction__heading nobr {
+      display: block;
+      padding-top: 10px; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .MercedesIntroduction {
+    width: 90%;
+    margin: auto; } }
+@media only screen and (min-width: 1440px) {
+  .MercedesIntroduction {
+    width: 85%;
+    margin: auto; } }
+.MercedeInformations {
+  padding-top: 70px; }
+  .MercedeInformations .row {
+    margin: 0; }
+    .MercedeInformations .row .MercedeInformations__content {
+      padding: 0; }
+      .MercedeInformations .row .MercedeInformations__content .bottom-line {
+        background: #333333;
+        content: '';
+        position: relative;
+        border: 1px solid #333333;
+        margin-top: 30px;
+        margin-bottom: 30px; }
+      .MercedeInformations .row .MercedeInformations__content .MercedeInformations__heading {
+        font-family: "Times New Roman", Times, serif; }
+        .MercedeInformations .row .MercedeInformations__content .MercedeInformations__heading::before {
+          background: #fff;
+          content: '';
+          position: relative;
+          display: block;
+          border: 2px solid #fff;
+          margin-bottom: 30px;
+          width: 60px; }
+        .MercedeInformations .row .MercedeInformations__content .MercedeInformations__heading h2 {
+          color: #fff;
+          font-size: 30px;
+          font-weight: normal; }
+      .MercedeInformations .row .MercedeInformations__content .MercedeInformations__text {
+        margin-top: 30px;
+        font-family: Helvetica, Arial, sans-serif;
+        list-style: none; }
+        .MercedeInformations .row .MercedeInformations__content .MercedeInformations__text a {
+          text-decoration: none;
+          transition: 0.5s all;
+          color: #999999;
+          font-size: 14px;
+          font-weight: normal; }
+          .MercedeInformations .row .MercedeInformations__content .MercedeInformations__text a:hover {
+            color: #00adef;
+            font-size: 14px;
+            font-weight: normal; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedeInformations {
+    width: 87%;
+    margin: auto; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedeInformations {
+    width: 87%;
+    margin: auto; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedeInformations {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedeInformations {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedeInformations {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedeInformations {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .MercedeInformations {
+    width: 90%;
+    margin: auto; } }
+@media only screen and (min-width: 1440px) {
+  .MercedeInformations {
+    width: 85%;
+    margin: auto; } }
+.MercedeStayInformed {
+  padding-top: 70px; }
+  .MercedeStayInformed .MercedeStayInformed__heading h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: normal; }
+    .MercedeStayInformed .MercedeStayInformed__heading h2::before {
+      background: #fff;
+      content: '';
+      position: relative;
+      display: block;
+      border: 2px solid #fff;
+      margin-bottom: 30px;
+      width: 60px; }
+  .MercedeStayInformed .MercedeStayInformed__heading .bottom-line {
+    background: #333333;
+    content: '';
+    position: relative;
+    border: 1px solid #333333;
+    margin-top: 30px;
+    margin-bottom: 30px; }
+  .MercedeStayInformed .MercedeStayInformed__text {
+    color: #999999;
+    font-size: 14px;
+    font-weight: normal; }
+  .MercedeStayInformed .MercedeStayInformed__formsearch form {
+    padding-top: 20px; }
+    .MercedeStayInformed .MercedeStayInformed__formsearch form .form-check a {
+      text-decoration: none;
+      color: #999999;
+      font-size: 14px;
+      font-weight: normal;
+      margin-left: 10px; }
+      .MercedeStayInformed .MercedeStayInformed__formsearch form .form-check a span:hover {
+        color: #00adef;
+        font-size: 14px;
+        font-weight: normal;
+        transition: 0.5s all; }
+    .MercedeStayInformed .MercedeStayInformed__formsearch form .form-check .form-check-input {
+      width: 16px;
+      height: 16px; }
+    .MercedeStayInformed .MercedeStayInformed__formsearch form .form-control {
+      font-family: "Times New Roman", Times, serif;
+      background: #2A2A2A;
+      border: 1px solid #2A2A2A;
+      border-radius: 0%;
+      padding: 6px 20px;
+      height: 40px; }
+      .MercedeStayInformed .MercedeStayInformed__formsearch form .form-control::placeholder {
+        color: #999999;
+        font-size: 20px;
+        font-weight: normal; }
+      .MercedeStayInformed .MercedeStayInformed__formsearch form .form-control:focus {
+        color: #fff;
+        font-size: 20px;
+        font-weight: normal; }
+      .MercedeStayInformed .MercedeStayInformed__formsearch form .form-control:focus {
+        background: #2A2A2A;
+        border: 1px solid #555;
+        box-shadow: none; }
+    .MercedeStayInformed .MercedeStayInformed__formsearch form .btn-outline-secondary {
+      background: linear-gradient(#242424, #0b0b0b);
+      border-top: #000;
+      border-left: #000;
+      border-right: #171717;
+      border-bottom: #171717;
+      transition: 0.5s all;
+      padding: 6px 50px; }
+      .MercedeStayInformed .MercedeStayInformed__formsearch form .btn-outline-secondary:hover {
+        color: #00adef;
+        font-size: 14px;
+        font-weight: normal; }
+  .MercedeStayInformed .MercedeStayInformed__icon {
+    flex-wrap: wrap;
+    padding-top: 10px; }
+    .MercedeStayInformed .MercedeStayInformed__icon a {
+      color: #999;
+      font-size: 24px;
+      font-weight: normal;
+      margin-right: 55px; }
+      .MercedeStayInformed .MercedeStayInformed__icon a:active {
+        color: #00adef;
+        font-size: 24px;
+        font-weight: normal;
+        margin-right: 55px; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedeStayInformed {
+    width: 87%;
+    margin: auto; }
+    .MercedeStayInformed .row form .form-control::placeholder {
+      color: #999999;
+      font-size: 14px;
+      font-weight: normal; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 5px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; }
+      .MercedeStayInformed .row .MercedeStayInformed__right .MercedeStayInformed__icon a {
+        margin-right: 25px; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedeStayInformed {
+    width: 87%;
+    margin: auto; }
+    .MercedeStayInformed .row form .form-control::placeholder {
+      color: #999999;
+      font-size: 14px;
+      font-weight: normal; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 5px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; }
+      .MercedeStayInformed .row .MercedeStayInformed__right .MercedeStayInformed__icon a {
+        margin-right: 25px; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedeStayInformed {
+    width: 93%;
+    margin: auto; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 30px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; }
+      .MercedeStayInformed .row .MercedeStayInformed__right .MercedeStayInformed__icon a {
+        margin-right: 25px; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedeStayInformed {
+    width: 93%;
+    margin: auto; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 70px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedeStayInformed {
+    width: 93%;
+    margin: auto; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 120px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedeStayInformed {
+    width: 93%;
+    margin: auto; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 120px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; } }
+@media only screen and (min-width: 1200px) and (max-width: 1279px) {
+  .MercedeStayInformed {
+    width: 90%;
+    margin: auto; }
+    .MercedeStayInformed .row form .btn-outline-secondary {
+      padding: 6px 170px; }
+    .MercedeStayInformed .row .MercedeStayInformed__right {
+      padding-top: 20px; } }
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+  .MercedeStayInformed {
+    width: 90%;
+    margin: auto; }
+    .MercedeStayInformed .MercedeStayInformed__container .row {
+      flex-direction: row; }
+      .MercedeStayInformed .MercedeStayInformed__container .row .col-xl-12 {
+        max-width: 50%; }
+        .MercedeStayInformed .MercedeStayInformed__container .row .col-xl-12 form {
+          width: 90%; }
+          .MercedeStayInformed .MercedeStayInformed__container .row .col-xl-12 form .btn-outline-secondary {
+            padding: 6px 20px; } }
+@media only screen and (min-width: 1440px) {
+  .MercedeStayInformed {
+    width: 85%;
+    margin: auto; }
+    .MercedeStayInformed .MercedeStayInformed__container .row {
+      flex-direction: row; }
+      .MercedeStayInformed .MercedeStayInformed__container .row .col-xl-12 {
+        max-width: 50%; }
+        .MercedeStayInformed .MercedeStayInformed__container .row .col-xl-12 form {
+          width: 90%; } }
+.MercedeSponsor {
+  padding-top: 70px; }
+  .MercedeSponsor .MercedeSponsor__container img {
+    width: 120px;
+    height: 100px; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedesIntroduction {
+    width: 87%;
+    margin: auto; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedesIntroduction {
+    width: 87%;
+    margin: auto; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedesIntroduction {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .MercedesIntroduction {
+    width: 90%;
+    margin: auto; } }
+@media only screen and (min-width: 1440px) {
+  .MercedeSponsor {
+    width: 85%;
+    margin: auto; } }
+.MercedeFooter {
+  padding-top: 30px; }
+  .MercedeFooter .MercedeFooter__language a {
+    text-decoration: none;
+    color: #636363;
+    font-size: 14px;
+    font-weight: normal; }
+    .MercedeFooter .MercedeFooter__language a:hover {
+      color: #00adef;
+      font-size: 14px;
+      font-weight: normal; }
+    .MercedeFooter .MercedeFooter__language a:active {
+      color: #fff;
+      font-size: 14px;
+      font-weight: normal; }
+    .MercedeFooter .MercedeFooter__language a:focus {
+      color: #fff;
+      font-size: 14px;
+      font-weight: normal; }
+  .MercedeFooter .MercedeFooter__language .MercedeLanguage-left::after {
+    background: #636363;
+    content: '';
+    display: inline-block;
+    height: 11px;
+    margin-left: 13px;
+    margin-right: 13px;
+    position: relative;
+    top: 1px;
+    width: 1px; }
+  .MercedeFooter .MercedeFooter__language .MercedeLanguage-right {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal; }
+  .MercedeFooter .MercedeFooter__tab .MercedeFooter__tabLeft {
+    float: right; }
+  .MercedeFooter .MercedeFooter__tab .MercedeFooter__tabRight {
+    float: right; }
+  .MercedeFooter .MercedeFooter__tab ul {
+    list-style: none; }
+    .MercedeFooter .MercedeFooter__tab ul a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #636363;
+      font-size: 14px;
+      font-weight: normal; }
+      .MercedeFooter .MercedeFooter__tab ul a:hover {
+        color: #00adef;
+        font-size: 14px;
+        font-weight: normal; }
+  .MercedeFooter .MercedeFooter__goTop {
+    cursor: pointer;
+    color: #636363;
+    font-size: 14px;
+    font-weight: normal; }
+    .MercedeFooter .MercedeFooter__goTop i {
+      margin-left: 10px; }
+    .MercedeFooter .MercedeFooter__goTop:hover {
+      color: #00adef;
+      font-size: 14px;
+      font-weight: normal; }
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .MercedeFooter {
+    width: 87%;
+    margin: auto; }
+    .MercedeFooter .MercedeFooter__language {
+      display: flex;
+      justify-content: center !important; }
+    .MercedeFooter .row ul {
+      flex-wrap: wrap; }
+    .MercedeFooter .row .MercedeFooter__tab {
+      flex-direction: column !important;
+      padding-top: 15px; }
+      .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabLeft {
+        float: left; }
+      .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabRight {
+        float: left; }
+    .MercedeFooter .row .MercedeFooter__goTop {
+      margin-left: auto;
+      max-width: 17%; } }
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .MercedeFooter {
+    width: 87%;
+    margin: auto; }
+    .MercedeFooter .MercedeFooter__language {
+      display: flex;
+      justify-content: center !important; }
+    .MercedeFooter .row ul {
+      flex-wrap: wrap; }
+    .MercedeFooter .row .MercedeFooter__tab {
+      flex-direction: column !important;
+      padding-top: 15px; }
+      .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabLeft {
+        float: left; }
+      .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabRight {
+        float: left; }
+    .MercedeFooter .row .MercedeFooter__goTop {
+      margin-left: auto;
+      max-width: 17%; } }
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .MercedeFooter {
+    width: 93%;
+    margin: auto; }
+    .MercedeFooter .MercedeFooter__language {
+      display: flex;
+      justify-content: center !important; }
+    .MercedeFooter .row {
+      align-self: center; }
+      .MercedeFooter .row .MercedeFooter__tab {
+        padding-top: 15px; }
+        .MercedeFooter .row .MercedeFooter__tab ul {
+          flex-wrap: wrap; }
+        .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabLeft {
+          float: left; }
+        .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabRight {
+          float: left; }
+      .MercedeFooter .row .MercedeFooter__goTop {
+        margin-left: auto;
+        max-width: 17%; } }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .MercedeFooter {
+    width: 93%;
+    margin: auto; }
+    .MercedeFooter .row {
+      flex-direction: column !important; }
+      .MercedeFooter .row .MercedeFooter__tab {
+        padding-top: 15px; }
+        .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabLeft {
+          float: left; }
+        .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabRight {
+          float: left; }
+      .MercedeFooter .row .MercedeFooter__goTop {
+        margin-left: auto;
+        max-width: 10.5%; } }
+@media only screen and (min-width: 992px) and (max-width: 1023px) {
+  .MercedeFooter {
+    width: 87%;
+    margin: auto; }
+    .MercedeFooter .row {
+      flex-direction: column !important; }
+      .MercedeFooter .row .MercedeFooter__tab {
+        padding-top: 15px; }
+        .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabLeft {
+          float: left; }
+        .MercedeFooter .row .MercedeFooter__tab .MercedeFooter__tabRight {
+          float: left; }
+      .MercedeFooter .row .MercedeFooter__goTop {
+        margin-left: auto; } }
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .MercedeFooter {
+    width: 93%;
+    margin: auto; } }
+@media only screen and (min-width: 1200px) and (max-width: 1439px) {
+  .MercedeFooter {
+    width: 90%;
+    margin: auto; } }
+@media only screen and (min-width: 1440px) {
+  .MercedeFooter {
+    width: 85%;
+    margin: auto; } }
+.form-check {
+  padding-top: 20px; }
+
+.nav-tabs {
+  border: none;
+  margin-bottom: 25px;
+  text-align: center;
+  justify-content: center; }
+  .nav-tabs .nav-link {
+    transition: 0.5s all;
+    border-bottom: 1px solid #00adef;
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 20px; }
+    .nav-tabs .nav-link:hover {
+      color: #00adef;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      box-shadow: none; }
+  .nav-tabs .nav-item .nav-link.active {
+    background: none;
+    color: #00adef;
+    border: none;
+    border-bottom: 1px solid #00adef; }
+  .nav-tabs .nav-item a {
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    background: none;
+    border: none;
+    padding-right: 10px;
+    padding-bottom: 10px; }
+    .nav-tabs .nav-item a i {
+      padding-right: 10px; }
+
+/*# sourceMappingURL=main.css.map */

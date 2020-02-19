@@ -1,0 +1,59 @@
+.MercedeSponsor {
+    @include spacing-top-bottom ($pd-4);
+    .MercedeSponsor__container {
+        img {
+            width: 120px;
+            height: 100px;
+            }
+    }
+}
+
+
+    // RESPONSIVES 
+    @include mobilesmall {
+        .MercedesIntroduction {
+            @include screen-layout ($width-2, $mg-auto);
+        }
+    }
+
+    @include mobile1 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-2, $mg-auto);
+        }
+    }
+
+    @include mobile2 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet1 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet2 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet3 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include desktop1 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-3, $mg-auto);
+        }
+    }
+
+    @include desktop2 {
+        .MercedeSponsor {
+            @include screen-layout ($width-8, $mg-auto);
+        }
+    }

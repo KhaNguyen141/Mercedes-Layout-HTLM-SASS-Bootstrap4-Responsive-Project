@@ -1,0 +1,54 @@
+
+.btn-mercedes {
+        @include button-style ($color-blue-1, $color-blue-1, $pd-0, $pd-1 + 2, $border-ra-1);
+        @include text ($color-white-0, $fs-0 + 1, $fw-normal);
+        transition: 0.25s all;
+        &:hover {
+            @include button-style ($color-blue-2, $color-blue-2, $pd-0, $pd-1 + 2, $border-ra-1);
+            @include text ($color-white-0, $fs-0 + 1, $fw-normal);
+        }
+}
+
+.btn-mercedes-dark {
+    @include button-style ($color-gray-6, $color-gray-6, $pd-0, $pd-1 + 2, $border-ra-1);
+    @include text ($color-white-0, $fs-0 + 1, $fw-normal);
+    transition: 0.25s all;
+    &:hover {
+        @include button-style ($color-black-6, $color-black-6, $pd-0, $pd-1 + 2, $border-ra-1);
+        @include text ($color-white-0, $fs-0 + 1, $fw-normal);
+    }
+    &:focus {
+        outline: none;
+        box-shadow: none;
+    }
+}
+
+
+.btn-mercedes-showMore {
+    background: linear-gradient($color-gray-7,$color-gray-8);
+    border: 1px solid $color-gray-7;
+    color: $color-gray-5;
+    line-height: 20px;
+    padding: $pd-0 $pd-2;
+    margin: 30px auto;
+    transition: 0.5s all;
+    &:hover {
+        color: $color-white-0;
+    }
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border: none;
+    }
+    i {
+        padding-right: $pd-1;
+    }
+}
+
+.btn-outline-secondary {
+    &:focus {
+        box-shadow: none;
+        outline: none;
+        border: none;
+    }
+}

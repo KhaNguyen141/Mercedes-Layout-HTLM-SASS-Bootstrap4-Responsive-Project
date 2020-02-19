@@ -1,0 +1,265 @@
+.MercedesHeader {
+    z-index: 100;
+}
+.header__container {
+    font-family: $ff-1;
+    position: relative;
+    .navbar-brand {
+        img {
+            vertical-align: text-bottom;
+            margin-right: $mg-4;
+        }
+    }
+    .header__navbarTop {
+        position: absolute;
+        bottom: 55px;
+        right: 18px;
+        .navbar-nav {
+            .text1 {
+                i {
+                    padding-right: $pd-1;
+                }
+            }
+            .nav-link {
+                color: $color-white-0;
+                margin-left: $mg-3;
+            &:hover {
+                color: $color-blue-1;
+                }
+            }
+            
+        }
+    }
+    .header__navbarBottom {
+        .navbar-nav {
+            .nav-item {
+                .nohover {
+                    &:hover {
+                        color: $color-white-0;
+                    }
+                }
+            }
+            .nav-link {
+                color: $color-white-0;
+                margin-left: $mg-3;
+            &:focus {
+                color: $color-blue-1;
+                }
+            &:hover {
+                color: $color-blue-1;
+                }
+            }
+        }
+    }
+
+    // RESPONSIVES 
+    @include mobilesmall {
+        button {
+            &:focus {
+                outline: none;
+            }
+            
+        }
+        .header__navbarTop {
+            .navbar-nav {
+                margin-right: $mg-2 + 5;
+                .nav-link {
+                    display: none!important;
+                }
+                    }
+                }
+                
+            .header__navbarBottom {
+                text-align: center;
+                padding-top: 0;
+                margin-top: $mg-3;
+                @include text ($color-black-0, $fs-3, $fw-normal)
+            }
+    }
+
+    @include mobile1 {
+        .navbar-brand {
+            img:nth-child(1) {
+                max-width: 20%;
+                max-height: 20%;
+            }
+        }
+
+        button {
+            &:focus {
+                outline: none;
+            }
+            
+        }
+        .header__navbarTop {
+            .navbar-nav {
+                margin-right: $mg-2 + 5;
+                .nav-link {
+                    display: none!important;
+                }
+                    }
+                }
+                
+            .header__navbarBottom {
+                text-align: center;
+                padding-top: 0;
+                margin-top: $mg-3;
+                @include text ($color-black-0, $fs-3, $fw-normal)
+            }
+    }
+
+    @include mobile2 {
+        .navbar-brand {
+            img:nth-child(1) {
+                max-width: 20%;
+                max-height: 20%;
+            }
+        }
+        button {
+            &:focus {
+                outline: none;
+            }
+            
+        }
+        .header__navbarTop {
+            .navbar-nav {
+                margin-right: $mg-2 + 5;
+                .nav-link {
+                    display: none!important;
+                }
+                    }
+                }
+                
+            .header__navbarBottom {
+                text-align: center;
+                padding-top: 0;
+                margin-top: $mg-3;
+                @include text ($color-black-0, $fs-3, $fw-normal)
+            }
+            
+    }
+    
+
+    @include tablet1 {
+        .navbar-brand {
+            img:nth-child(1) {
+                max-width: 20%;
+                max-height: 20%;
+            }
+        }
+
+        button {
+            &:focus {
+                outline: none;
+        }
+        
+    }
+    .header__navbarTop {
+        .navbar-nav {
+            margin-right: $mg-2 + 5;
+            .nav-link {
+                display: none!important;
+            }
+                }
+            }
+            
+        .header__navbarBottom {
+            text-align: center;
+            padding-top: 0;
+            margin-top: $mg-3;
+            @include text ($color-black-0, $fs-3, $fw-normal)
+                }
+        }
+
+    @include tablet2 {
+        .header__navbarTop {
+            position: absolute;
+            bottom: 55px;
+            right: 18px;
+            margin-left: 0!important; 
+            .navbar-nav {
+                @include text ($color-black-0, $fs-1 + 2, $fw-normal);
+                .nav-link {
+                    margin-left: 0!important;   
+                }
+            }
+        }
+                
+            .header__navbarBottom {
+                position: absolute;
+                bottom: 2%;
+                right: 18px;
+                .nav-link {
+                    color: $color-white-0;
+                    margin-left: 0!important;
+        }
+        @include text ($color-black-0, $fs-1 + 2, $fw-normal);
+            }
+        }
+
+    @include tablet3 {
+    .header__navbarTop {
+        .navbar-nav {
+            @include text ($color-black-0, $fs-0 + 1, $fw-normal);
+            .nav-link {
+                margin-left: 0!important;   
+                    }
+            }
+        }
+            
+    .header__navbarBottom {
+        position: absolute;
+        bottom: 2%;
+        right: 18px;
+        .nav-link {
+            color: $color-white-0;
+            margin-left: 0!important;
+        }
+        @include text ($color-black-0, $fs-0 + 1, $fw-normal);
+            }
+    }
+
+    @include desktop1 {
+    .header__navbarTop {
+        .navbar-nav {
+            @include text ($color-black-0, $fs-0 + 1, $fw-normal);
+            }
+        }
+            
+    .header__navbarBottom {
+        position: absolute;
+        bottom: 2%;
+        right: 18px;
+        @include text ($color-black-0, $fs-0 + 1, $fw-normal);
+        .nav-link {
+            color: $color-white-0;
+                }
+        
+            }
+    }
+
+    @include desktop2 {
+        @include screen-layout ($width-1, $mg-auto);
+        .header__navbarTop {
+            .navbar-nav {
+                @include text ($color-black-0, $fs-0 + 1, $fw-normal);
+                }
+            }
+            
+    .header__navbarBottom {
+        position: absolute;
+        bottom: 2%;
+        right: 18px;
+        @include text ($color-black-0, $fs-0 + 1, $fw-normal);
+        .nav-link {
+            color: $color-white-0;
+                }
+        
+            }
+    }
+}
+
+
+    
+
+

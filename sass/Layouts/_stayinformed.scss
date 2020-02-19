@@ -1,0 +1,276 @@
+.MercedeStayInformed {
+    @include spacing-top-bottom ($pd-4);
+    .MercedeStayInformed__heading {
+        h2 {
+            @include text ($color-white-0, $fs-5 - 5, $fw-normal);
+            &::before {
+                @include top-border ($color-white-0, $width-5, $mg-3);
+            }
+    }
+    .bottom-line {
+        @include bottom-border ($color-gray-1, $mg-3, $mg-3);  
+        }
+    
+    }  
+    .MercedeStayInformed__text {
+        @include text ($color-gray-2, $fs-0, $fw-normal);
+    }
+
+    .MercedeStayInformed__formsearch {
+        form {
+            @include spacing-top-bottom ($pd-2);
+            .form-check {
+                a {
+                    text-decoration: none;
+                    @include text ($color-gray-2, $fs-0, $fw-normal);
+                    margin-left: $mg-1;
+                    span {
+                        &:hover {
+                            @include text ($color-blue-1, $fs-0, $fw-normal);
+                            transition: 0.5s all;
+                        }
+                    }
+                }
+                .form-check-input {
+                    width: $width-9;
+                    height: $height-2;
+                }
+            }
+            .form-control {
+                font-family: $ff-2;
+                &::placeholder {
+                    @include text ($color-gray-2, $fs-2, $fw-normal);
+                }
+                &:focus {
+                    @include text ($color-white-0, $fs-2, $fw-normal);
+                }
+                
+                background: $color-black-1;
+                border: 1px solid $color-black-1;
+                border-radius: 0%;
+                padding: $pd-0 + 1 $pd-2;
+                height: $height-1;
+                &:focus {
+                    background: $color-black-1;
+                    border: 1px solid $color-gray-4;
+                    box-shadow: none;
+                }
+            }
+            .btn-outline-secondary {
+                background: linear-gradient($color-black-2, $color-black-3);
+                border-top: $color-black-0;
+                border-left: $color-black-0;
+                border-right: $color-black-4;
+                border-bottom: $color-black-4;
+                transition: 0.5s all;
+                 padding: $pd-0 + 1 $pd-4 - 20;
+                &:hover {
+                    @include text ($color-blue-1, $fs-0, $fw-normal);
+                }
+            }
+        }
+       
+    }
+
+    .MercedeStayInformed__icon {
+        flex-wrap: wrap;
+        padding-top: $pd-2 - 10;
+        a {
+            @include text ($color-gray-5, $fs-3, $fw-normal);
+            margin-right: $mg-5;
+            &:active {
+                @include text ($color-blue-1, $fs-3, $fw-normal);
+                margin-right: $mg-5;
+            }
+        }
+    }
+}
+
+        // RESPONSIVE
+        @include mobilesmall {
+            .MercedeStayInformed {
+                @include screen-layout ($width-2, $mg-auto);
+                .row {
+                    form {
+                        .form-control {
+                            &::placeholder {
+                                @include text ($color-gray-2, $fs-0, $fw-normal);
+                            }
+                        }
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-0;
+                                }
+                    }
+                    .MercedeStayInformed__right {
+                        padding-top: $pd-2;
+                        .MercedeStayInformed__icon {
+                            a {
+                                margin-right: $mg-2;
+                            }
+                        }
+                    }
+                }
+                   
+            }
+        }
+
+        @include mobile1 {
+            .MercedeStayInformed {
+        
+                @include screen-layout ($width-2, $mg-auto);
+                .row {
+                    form {
+                        .form-control {
+                            &::placeholder {
+                                @include text ($color-gray-2, $fs-0, $fw-normal);
+                            }
+                        }
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-0;
+                                }
+                    }
+                    .MercedeStayInformed__right {
+                        @include spacing-top-bottom ($pd-2);
+                        .MercedeStayInformed__icon {
+                            a {
+                                margin-right: $mg-2;
+                            }
+                        }
+                    }
+                }
+                   
+            }
+        }
+
+        @include mobile2 {
+            .MercedeStayInformed {
+                @include screen-layout ($width-6, $mg-auto);
+                .row {
+                    form {
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-3;
+                            }
+                    }
+                    .MercedeStayInformed__right {
+                        @include spacing-top-bottom ($pd-2);
+                        .MercedeStayInformed__icon {
+                            a {
+                                margin-right: $mg-2;
+                            }
+                        }
+                    }
+                    
+                }
+                   
+            }
+        }
+
+        @include tablet1 {
+            .MercedeStayInformed {
+                @include screen-layout ($width-6, $mg-auto);
+                .row {
+                    form {
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-4;
+                                }
+                    }
+                    .MercedeStayInformed__right {
+                        @include spacing-top-bottom ($pd-2);
+                    }
+                }
+                   
+            }
+        }
+
+        @include tablet2 {
+            .MercedeStayInformed {
+                @include screen-layout ($width-6, $mg-auto);
+                .row {
+                    form {
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-4 + 50;
+                                }
+                    }
+                    .MercedeStayInformed__right {
+                        @include spacing-top-bottom ($pd-2);
+                    }
+                }
+                   
+            }
+        }
+
+        @include tablet3 {
+            .MercedeStayInformed {
+                @include screen-layout ($width-6, $mg-auto);
+                .row {
+                    form {
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-4 + 50;
+                                }
+                    }
+                    .MercedeStayInformed__right {
+                        @include spacing-top-bottom ($pd-2);
+                    }
+                }
+                   
+            }
+        }
+
+        @include desktop1-1 {
+            .MercedeStayInformed {
+                @include screen-layout ($width-3, $mg-auto);
+                .row {
+                    form {
+                        .btn-outline-secondary { 
+                            padding: $pd-0 + 1 $pd-4 + 100;
+                        }
+                    }
+                    .MercedeStayInformed__right {
+                        @include spacing-top-bottom ($pd-2);
+                    }
+                }
+                   
+            }
+        }
+                    
+        
+        @include desktop1-2 {
+            .MercedeStayInformed {
+                @include screen-layout ($width-3, $mg-auto);
+                .MercedeStayInformed__container {
+                    .row {
+                        flex-direction: row;
+                        .col-xl-12 {
+                            max-width: 50%;
+                            form{
+                                width: 90%;
+                                .btn-outline-secondary { 
+                                    padding: $pd-0 + 1 $pd-2;
+                            }
+                            
+                        }
+                    }
+                    
+                }
+            }
+
+        }
+    }
+
+    @include desktop2 {
+        .MercedeStayInformed {
+            @include screen-layout ($width-8, $mg-auto);
+            .MercedeStayInformed__container {
+                .row {
+                    flex-direction: row;
+                    .col-xl-12 {
+                        max-width: 50%;
+                        form{
+                            width: 90%;
+                    }
+                }
+                
+            }
+        }
+    }
+}

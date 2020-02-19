@@ -1,0 +1,67 @@
+.form-check {
+        padding-top: $pd-2;
+    }
+
+
+.nav-tabs {
+    border: none;
+    margin-bottom: $mg-2;
+    text-align: center;
+    justify-content: center;
+    .nav-link {
+        transition: 0.5s all;
+        border-bottom: 1px solid $color-blue-1;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 20px;
+         &:hover {
+         color: $color-blue-1;
+         border-top-left-radius: 0;
+         border-top-right-radius: 0;
+         box-shadow: none;
+         }
+    }
+    
+    
+   .nav-item {
+        .nav-link.active {
+        background: none;
+        color: $color-blue-1;
+        border: none;
+        border-bottom: 1px solid $color-blue-1;
+        }
+        a   {  
+            @include text ($color-white-0, $fs-0, $fw-normal);
+            background: none;
+            border: none;
+            padding-right: $pd-1;
+            padding-bottom: 10px;
+            i   {
+                padding-right: $pd-0 + 5;
+                }
+            }
+   }
+}
+
+// border: none;
+// a {
+//     @include text ($color-white-0, $fs-0, $fw-normal);
+//     padding-right: $pd-4;
+// }
+// .nav-link {
+//     border: none;
+//     transition: 0.5s all;
+//     &:hover {
+// 
+//         border: none;
+//         border-radius: 0;
+        
+//     }
+// }
+// .nav-link.active {
+//     background: none;
+//     border: none;
+//     color: $color-blue-1;
+//     
+//     padding: $pd-1 0;
+// }

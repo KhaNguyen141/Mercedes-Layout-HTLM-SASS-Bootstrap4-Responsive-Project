@@ -1,0 +1,84 @@
+    .MercedesIntroduction {
+        @include spacing-top-bottom ($pd-4);
+        .MercedesIntroduction__heading {
+            margin-bottom: $mg-2;
+            nobr {
+                margin-right: $pd-3;
+                }
+        }
+    
+        .MercedesIntroduction__content {
+            p {
+                margin-bottom: $mg-2;
+                }
+        }
+    }
+
+
+    // RESPONSIVES 
+    @include mobilesmall {
+        .MercedesIntroduction {
+            @include screen-layout ($width-2, $mg-auto);
+            .MercedesIntroduction__heading {
+                nobr {
+                    display: block;
+                    padding-top: $pd-1;
+                }
+            }
+        }
+    }
+
+    @include mobile1 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-2, $mg-auto);
+            .MercedesIntroduction__heading {
+                nobr {
+                    display: block;
+                    padding-top: $pd-1;
+                }
+            }
+        }
+    }
+
+    @include mobile2 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+            .MercedesIntroduction__heading {
+                nobr {
+                    display: block;
+                    padding-top: $pd-1;
+                }
+            }
+        }
+    }
+
+    @include tablet1 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet2 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet3 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include desktop1 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-3, $mg-auto);
+        }
+    }
+
+    @include desktop2 {
+        .MercedesIntroduction {
+            @include screen-layout ($width-8, $mg-auto);
+        }
+       
+    }

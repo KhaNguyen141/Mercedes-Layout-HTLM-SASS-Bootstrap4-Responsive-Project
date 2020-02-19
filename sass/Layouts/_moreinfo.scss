@@ -1,0 +1,90 @@
+.MercedeInformations {
+@include spacing-top-bottom ($pd-4);
+
+    .row {
+        margin: 0;
+        .MercedeInformations__content {
+            padding: 0;
+            .bottom-line {
+                @include bottom-border ($color-gray-1, $mg-3, $mg-3);
+            }
+            .MercedeInformations__heading {
+                font-family: $ff-2;
+                &::before {
+                    @include top-border ($color-white-0, $width-5, $mg-3);
+                    }
+                h2 {
+                    @include text ($color-white-0, $fs-5 - 5, $fw-normal);
+                }
+                
+            }
+
+
+            .MercedeInformations__text {
+                margin-top: $mg-3;
+                font-family: $ff-1;
+                list-style: none;
+                a {
+                    text-decoration: none;
+                    transition: 0.5s all;
+                    @include text ($color-gray-2, $fs-0, $fw-normal);
+                    &:hover {
+                        @include text ($color-blue-1, $fs-0,$fw-normal);
+                        }
+                    }
+            }
+        }   
+    
+    }
+        
+}
+
+    // RESPONSIVES 
+    @include mobilesmall {
+        .MercedeInformations {
+            @include screen-layout ($width-2, $mg-auto);
+        }
+    }
+
+    @include mobile1 {
+        .MercedeInformations {
+            @include screen-layout ($width-2, $mg-auto);
+        }
+    }
+
+    @include mobile2 {
+        .MercedeInformations {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet1 {
+        .MercedeInformations {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet2 {
+        .MercedeInformations {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include tablet3 {
+        .MercedeInformations {
+            @include screen-layout ($width-6, $mg-auto);
+        }
+    }
+
+    @include desktop1 {
+        .MercedeInformations {
+            @include screen-layout ($width-3, $mg-auto);
+        }
+    }
+
+    @include desktop2 {
+        .MercedeInformations {
+            @include screen-layout ($width-8, $mg-auto);
+        }
+    
+    }
